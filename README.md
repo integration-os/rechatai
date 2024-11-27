@@ -102,7 +102,7 @@ ReChat uses Clerk for authentication. Configure your Clerk application and add t
 ### IntegrationsOS Setup
 1. Create an account at [IntegrationsOS](https://integrationsos.com/)
 2. Create a new project and get your API credentials
-3. Add the IntegrationsOS API key and client ID to your environment variables
+3. Add the IntegrationsOS API key to your environment variables
 
 ### Database
 Set up your Convex database and add the deployment URL to your environment variables.
