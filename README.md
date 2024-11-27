@@ -1,32 +1,49 @@
-# ReChat 🤖
+# Rechat 🤖
 
-ReChat is an open-source AI chat platform that allows users to interact with multiple AI models (OpenAI GPT, Anthropic Claude) in a unified interface. Built with modern web technologies and designed for seamless user experience.
+Rechat is an open-source AI platform that revolutionizes app development by automatically building both frontend applications and backend connectors. It leverages AI to generate complete, production-ready applications with seamless third-party integrations through IntegrationsOS, eliminating the complexity of manual integration development.
 
 ## ✨ Features
 
-- 🤖 Multi-AI Model Support (OpenAI GPT, Anthropic Claude)
-- 🔄 Real-time chat with AI using Convex
-- 👥 User authentication and management with Clerk
-- 🔌 Extensible integrations system
-- 💅 Modern UI built with Next.js 13+ and Shadcn UI
-- 🌐 Real-time updates and collaboration
-- 🎨 Customizable themes and interface
+- 🏗️ Full-stack App Generation
+  - Automated frontend application building
+  - Automatic backend connector generation
+  - Ready-to-deploy complete solutions
+- 🔌 Comprehensive Integration Support
+  - Pre-built connectors for popular services
+  - Custom connector generation
+  - Automatic API handling and authentication
+- 🤖 AI-Powered Development
+  - Intelligent code generation
+  - Context-aware application building
+  - Smart integration optimization
+- 💡 Smart Features
+  - Real-time updates with Convex
+  - Secure authentication via Clerk
+  - Modern UI with Shadcn UI
+  - Customizable themes and interfaces
 
 ## 🚀 Tech Stack
 
 - [Next.js 13+](https://nextjs.org/) - React Framework
 - [Convex](https://www.convex.dev/) - Backend and Database
 - [Clerk](https://clerk.dev/) - Authentication and User Management
+- [IntegrationsOS](https://integrationsos.com/) - Integration Infrastructure
 - [Shadcn UI](https://ui.shadcn.com/) - UI Components
-- [OpenAI API](https://openai.com/api/) - GPT Integration
-- [Claude API](https://anthropic.com/) - Claude Integration
-- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [OpenAI API](https://openai.com/api/) - AI Code Generation
+- [Claude API](https://anthropic.com/) - AI Logic Processing
+
+## 🎯 How It Works
+
+1. **Define Your App**: Describe your desired application and required integrations
+2. **AI Generation**: Rechat's AI generates both frontend and backend code
+3. **Integration Creation**: Automatic generation of necessary API connectors
+4. **Deploy**: Get a production-ready application with working integrations
 
 ## 📦 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/rechat.git
+git clone https://github.com/integration-os/rechatai.git
 cd rechat
 ```
 
@@ -57,6 +74,10 @@ CLAUDE_API_KEY=
 # Database
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
+
+# IntegrationsOS
+INTEGRATIONSOS_API_KEY=
+NEXT_PUBLIC_INTEGRATIONSOS_CLIENT_ID=
 ```
 
 4. Start the development server:
@@ -78,18 +99,14 @@ ReChat uses Clerk for authentication. Configure your Clerk application and add t
 2. Get your Claude API key from Anthropic
 3. Add both keys to your environment variables
 
+### IntegrationsOS Setup
+1. Create an account at [IntegrationsOS](https://integrationsos.com/)
+2. Create a new project and get your API credentials
+3. Add the IntegrationsOS API key and client ID to your environment variables
+
 ### Database
 Set up your Convex database and add the deployment URL to your environment variables.
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
@@ -97,6 +114,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+- [IntegrationsOS](https://integrationsos.com/)
 - [Next.js](https://nextjs.org/)
 - [Convex](https://www.convex.dev/)
 - [Clerk](https://clerk.dev/)
@@ -106,7 +124,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Project Link: [https://github.com/yourusername/rechat](https://github.com/yourusername/rechat)
+Project Link: [https://github.com/integration-os/rechatai.git](https://github.com/integration-os/rechatai.git)
 
 ---
-Built with ❤️ by [Your Name/Organization]
+Built with ❤️ by IntegrationsOS Community
