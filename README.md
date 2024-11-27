@@ -44,7 +44,7 @@ Rechat is an open-source AI platform that revolutionizes app development by auto
 1. Clone the repository:
 ```bash
 git clone https://github.com/integration-os/rechatai.git
-cd rechat
+cd rechatai
 ```
 
 2. Install dependencies:
